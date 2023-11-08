@@ -6,7 +6,7 @@ services:
       context: ./
       dockerfile: ./Dockerfile
     image: node-web-app
-    container_name: personal_page
+    container_name: personal-page
     restart: unless-stopped
     networks:
       - app-network
